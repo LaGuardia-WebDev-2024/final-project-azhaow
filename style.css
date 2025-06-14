@@ -4,6 +4,8 @@ body {
   padding-top: 30px;
   margin-left: 0px;
   margin-right: 0px;
+
+  background-color:rgb(246, 248, 230);
 }
 /* ⬆⬆⬆⬆ Nav Bar Styling 
 ~~~~~ Taken From: 
@@ -13,7 +15,8 @@ ul.nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+/*   background-color: rgb(33, 52, 72); */
+  background-color: rgb(32, 87, 129);
   position: fixed;
   top: 0;
   width: 100%;
@@ -33,11 +36,11 @@ ul.nav li a {
 }
 
 ul.nav li a:hover:not(.active) {
-  background-color: yellow;
+  background-color: rgb(152, 210, 192);
 }
 
 ul.nav .active {
-  background-color: red;
+  background-color: rgb(79, 149, 157);
 }
 
 h1 {
