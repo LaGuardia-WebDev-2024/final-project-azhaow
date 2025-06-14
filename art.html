@@ -6,27 +6,72 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
       /* Styling Only Related To THIS Page */
-      .parent-flex {
+    .parent-flex {
         display: flex;
-        background-color: purple;
+        background-color: rgb(84, 119, 146);
         justify-content: space-around;
-        padding: 10px;
+        padding: 20px;
         margin-bottom: 20px;
       }
 
       .parent-flex img {
+        max-width: 40%;
+        border-radius: 5px;
+        width: 380px
+      }
+      h1 {text-align: center;
+      color: rgb(84, 119, 146)}
+      
+      .child-flex .text {
+        background-color:rgb(152, 210, 192) ;
+      width: 50;
+        margin: 50px;
+      }
+      .arch {
+         display: flex;
+        background-color: rgb(84, 119, 146);
+        justify-content: space-around;
+        padding: 30px;
+        margin-bottom: 20px;
+      }
+      .arch img{
+        width: 400px;
         max-width: 30%;
-        border-radius: 10px;
+        border-radius: 5px;
+      }
+      .floorplan {
+        display: flex;
+        background-color: rgb(84, 119, 146);
+        justify-content: space-around;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      .floorplan img{
+        width: 800px;
+        max-width: 32%;
+        border-radius: 3px;
+      }
+      .digital{
+        display: flex;
+        background-color: rgb(84, 119, 146);
+        justify-content: space-around;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      .digital img{
+        
+        max-width: 100%;
+        border-radius: 3px;
       }
     </style>
   </head>
   <body>
     <!-- ⬆⬆⬆⬆ Nav Bar -->
     <ul class="nav">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="aboutme.html">About Me</a></li>
-      <li><a class="active" href="art.html">Art</a></li>
+      <li><a href="index.html">About Me</a></li>
       <li><a href="resume.html">Resume</a></li>
+      <li><a class="active" href="art.html">Art</a></li>
+      <li><a href="more.html">More</a></li>
       <li style="float: right">
         <a target="_blank" href=""
           ><img
@@ -43,24 +88,88 @@
       </li>
     </ul>
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>My Art</h1>
+  
+    
+    <h1>
+      ARCHITECTURE 
+    </h1>
+    <div class = "arch">
+      
+  
+    
+    <img src= "https://cdn.glitch.global/634de644-c9dc-4604-89e9-ef83dce72e9e/IMG_8650.jpeg?v=1748447346877"
+     width = "200" />
+    <img src = "https://cdn.glitch.global/634de644-c9dc-4604-89e9-ef83dce72e9e/IMG_8651.jpeg?v=1748447410236"
+      width = "200" />
+    <img src = "https://cdn.glitch.global/634de644-c9dc-4604-89e9-ef83dce72e9e/IMG_8652.jpeg?v=1748447421735"
+        width = "200" />
+  <img src = "https://cdn.glitch.global/634de644-c9dc-4604-89e9-ef83dce72e9e/284596e6-677b-4820-a956-601e08ce5d31.image.png?v=1748531958931"
+    width = "200"  />
+    </div>
+    
+    <div class = "floorplan">
+      <img src = "https://cdn.glitch.global/634de644-c9dc-4604-89e9-ef83dce72e9e/IMG_8665.jpeg?v=1749741595731">
+      <img src = "https://cdn.glitch.global/634de644-c9dc-4604-89e9-ef83dce72e9e/IMG_8666.jpeg?v=1749741631300">
+      <img src = "https://cdn.glitch.global/634de644-c9dc-4604-89e9-ef83dce72e9e/IMG_8667.jpeg?v=1749741641506">
+    </div>
+    
+    <div class = "floorplan">
+      <img src= "https://cdn.glitch.global/634de644-c9dc-4604-89e9-ef83dce72e9e/IMG_0382.jpeg?v=1749741654133">
+    </div>
+    
+    
+    
+    
+     <h1>LOGOS</h1>
 
     <div class="parent-flex">
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
+        <img
+        src="https://cdn.glitch.global/634de644-c9dc-4604-89e9-ef83dce72e9e/IMG_0427.jpeg?v=1748446841908"
       />
       <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
+        src="https://cdn.glitch.global/634de644-c9dc-4604-89e9-ef83dce72e9e/IMG_0401.jpeg?v=1748447055926"
       />
+      <img src = "https://cdn.glitch.global/634de644-c9dc-4604-89e9-ef83dce72e9e/IMG_0400.jpeg?v=1748447085845"
+      />
+      
+<!--        <div class="child-flex">
+         <h1 class = "text">logo</h1>
+         
+      </div> -->
     </div>
+    
 
+     
+    
     <div class="parent-flex">
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
+     <img
+        src="https://cdn.glitch.global/634de644-c9dc-4604-89e9-ef83dce72e9e/laglogo.png?v=1748446218667"
       />
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
+<!--       <img src = "https://cdn.glitch.global/634de644-c9dc-4604-89e9-ef83dce72e9e/IMG_0428.jpeg?v=1748446330694"
+      /> -->
+      <img src = "https://cdn.glitch.global/634de644-c9dc-4604-89e9-ef83dce72e9e/IMG_0163.jpeg?v=1748446658215"
       />
+      
+<!--       <div class="child-flex">
+         <h1 class = "text">new logo</h1>
+        <h1 class = "text">
+          art logo
+        </h1> -->
+         
+<!--       </div> -->
     </div>
+    
+    <h1>
+      DIGITAL
+    </h1>
+    
+    <div class = "digital">
+      <img src="https://cdn.glitch.global/634de644-c9dc-4604-89e9-ef83dce72e9e/IMG_0887.jpeg?v=1749741100326" 
+           width = "400px">
+       <img src= "https://cdn.glitch.global/634de644-c9dc-4604-89e9-ef83dce72e9e/IMG_0886.jpeg?v=1749741110069" 
+         height ="700px"  width ="600px">
+    </div>
+      
+    
   </body>
 </html>
